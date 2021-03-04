@@ -1,0 +1,18 @@
+body{
+	background: #9e14a8;
+	text-align: center;
+	color: #ffe100;
+	padding: 5%;
+
+}
+a {
+  color: hotpink;
+}
+h1{
+	font-size: 450%; 
+ 	font-family: "Times New Roman", Times, serif;
+  
+}
+h3{
+	font-size: 250%;
+}
