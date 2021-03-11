@@ -54,6 +54,8 @@ body {
   position: fixed;
   height:100vw;
   z-index:-2;
+  top:0px;
+  right: 0px;
 
 
 }
@@ -63,14 +65,14 @@ body {
 	background-color: white;
 	display: inline;
 	position: relative;
-	z-index:-1;
+	z-index:0;
 	font-size: 550%;
 	border-radius: 0%;
-	width: 150%;
+	width: 100vw;
 	height: 80%;
 	border: 2px solid black;
-	margin-left: 2%;
-	margin-right: 20%;
+
+
 }
 
 .txt-illusion{
@@ -85,6 +87,8 @@ body {
    	font-size: 1500%;
    	height: 200vw;
   	width: 100vw;
+  	-webkit-text-stroke-width: 0.2px;
+  	-webkit-text-stroke-color: black;
 }
 
 #sf{
