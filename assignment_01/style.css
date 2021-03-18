@@ -149,7 +149,7 @@ h5{
 
 .los-angeles{
 	position:relative;
-	top:-7%;
+	top:-8%;
 	left: 50%;
   filter: drop-shadow(0px 0px 10px black);
 }
@@ -166,12 +166,12 @@ h5{
 
 .chicago{
 	position:relative;
-	top:-8%;
+	top:-9%;
 	left: 67%;
   filter: drop-shadow(0px 0px 10px black);
 }
 #chicago_button{
-    padding: 5% 8%;
+    padding: 4% 8%;
     border-radius: 150px;
     border: 1px solid black;
     z-index: -3;
@@ -179,7 +179,7 @@ h5{
 
 .boston{
   position:relative;
-  top:-6.5%;
+  top:-8.5%;
   left: 5%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -195,7 +195,7 @@ h5{
 }
 .providence{
   position:relative;
-  top:-18%;
+  top:-20%;
   left: 33%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -211,7 +211,7 @@ h5{
 }
 .nyc{
   position:relative;
-  top:-29.5%;
+  top:-31.5%;
   left: 56.8%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -326,7 +326,6 @@ padding: 5%;
   margin: auto;
   border: 1px solid black;
   padding: 3% 5%;
-  text-transform: uppercase;
   font-size: 180%;
   border-radius: 150px;
 
@@ -679,4 +678,16 @@ li.six:hover + img{
   list-style-type: none;
 }
 
+.about_uc{
+  text-transform: uppercase;
+}
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
