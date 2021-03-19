@@ -6,6 +6,8 @@
   	<link rel="stylesheet" href="https://use.typekit.net/iqw5rsj.css">
   	 <link rel="stylesheet" href="/fonts/moonbase/stylesheet.css" type="text/css" charset="utf-8" /> 
     <link rel="stylesheet" href="style.css">
+<!--     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script> -->
 
 </head>
 <body>
@@ -16,39 +18,69 @@
 		<h3>TOTAL DARK-<br>NESS</h3>
 	</div>
 	<div  class="container">
+<!-- sf -->
 		<div class="sf">
-
 			<a href="#sf_banner">
 				<button id="sf_button">
 			<h2>San Francisco</h2></button></a>
 		</div>
-
+<!-- la -->
 		<div class="los-angeles">
 			<button id= "la_button">
-				<h2> Los Angeles</h2></button></a>
+				<h2> Los Angeles</h2></button>
 		</div>
+<!-- ch -->
 		<div class="chicago">
 			<button id= "chicago_button"><h2>Chicago</h2></button>
 		</div>
+<!-- bstn -->
 		<div class="boston">
 			<button id= "boston_button"><h2>Boston</h2></button>
 		</div>
+<!-- pvd -->
 		<div class="providence">
 			<button id="providence_button"><h2>Providence</h2></button>
 		</div>
+<!-- nyc -->
 		<div class="nyc">
 			<button id="nyc_button"><h2>New York City</h2></button>
 		</div>
-
+<!-- menu -->
 		<div class="menu">
 			<button id="menu_button"><h2>Menu</h2></button>
 		</div>
+<!-- about -->
 		<div class="about">
 			<button id="about_button"><h2>About</h2></button>
 		</div>
 	</div>
 		<div class="circle">
-			<button id="circle_button"><h2> </h2></button>
+			<button id="circle_button" onclick="javascript: (
+function () { 
+    var css = 'html {-webkit-filter: invert(100%);' +
+        '-moz-filter: invert(100%);' + 
+        '-o-filter: invert(100%);' + 
+        '-ms-filter: invert(100%); }',
+    head = document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+
+if (!window.counter) { window.counter = 1;} else  { window.counter ++;
+if (window.counter % 2 == 0) { var css ='html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}
+ };
+
+style.type = 'text/css';
+if (style.styleSheet){
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
+
+head.appendChild(style);
+ }());
+"></button>
+
+<br/>
+<a href="javascript:(function(){var css='html {-webkit-filter: invert(100%);'+'-moz-filter: invert(100%);'+'-o-filter: invert(100%);'+'-ms-filter: invert(100%); }',head=document.getElementsByTagName('head')[0],style=document.createElement('style');if(!window.counter){window.counter=1;}else{window.counter++;if(window.counter%2==0){var css='html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}};style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=css;}else{style.appendChild(document.createTextNode(css));}head.appendChild(style);})();"></a>><h2> </h2></button>
 		</div>
 
 		<div class="polka-dots">
