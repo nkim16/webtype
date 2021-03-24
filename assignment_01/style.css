@@ -145,7 +145,7 @@ h5{
   height: 1%;
   border: 2px solid black;
   padding: 30px;
-  top:800px;
+  top:-100px;
   width: 100vw;
   color: white;
   z-index: 1;
@@ -231,18 +231,18 @@ h5{
 
 .menu{
   position:relative;
-  top:-80%;
+  top:-79%;
   left: 60%;
   filter: drop-shadow(0px 0px 10px black);
 }
 
 
 #menu_button{
-padding: 5%;
-    border-radius: 50%;
-    border: 1px solid black;
-    z-index: -3;
-    position: 60px 90px;
+  padding: 5%;
+  border-radius: 50%;
+  border: 1px solid black;
+  z-index: -3;
+  position: 60px 90px;
 
 }
 
@@ -264,7 +264,7 @@ padding: 5%;
 
 .about{
   position:relative;
-  top:-93.5%;
+  top:-92.5%;
   left: 73.3%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -311,6 +311,11 @@ padding: 5%;
     height: 15px;
 }
 
+#circle_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
 
 .container{
 	padding: 40px;
@@ -350,7 +355,7 @@ padding: 5%;
 }
 
 .sf_title{
-  top:386%;
+  top:20%;
   left:7%;
   position: absolute;
   z-index: 1;
@@ -360,11 +365,12 @@ padding: 5%;
 .sf-container{
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   margin-left: 0%;
   margin-top: 78vh;
   background-color: white;
   border: 1px solid black;
+  top:285%;
 
 }
 
@@ -377,13 +383,14 @@ div{
   width: 24%;
   height: 38%
   margin-left:20%;
-  margin-top: 17%;
+  margin-top: -2%;
   left:7%;
   font-size: 80%;
   padding: 1%;
   text-align: left;
   background-color: white;
   border: 1px solid black;
+  top:42%;
 }
 
 .location_text{
@@ -396,15 +403,16 @@ div{
 .food_fact{
   position: absolute;
   width: 54%;
-  height: 55%;
+  height: 40%;
   margin-left:1%;
-  margin-top: 17%;
+  margin-top: -2%;
   left:36%;
   font-size: 80%;
   padding: 1%;
   text-align: left;
   background-color: white;
   border: 1px solid black;
+  top: 42%;
 }
 
 .location_title{
@@ -463,19 +471,19 @@ img{
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:1570px;
+  top:-214px;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .la_title{
-  top:499%;
+  top:-25%;
   left:7%;
-  position: absolute;
+  position: relative;
   z-index: 1;
   font-size: 1250%;
 }
@@ -485,9 +493,10 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 167vh;
+  margin-top: 230vh;
   background-color: white;
   border: 1px solid black; 
+
 }
 
 .ch_banner{
@@ -509,7 +518,7 @@ img{
 .ch_title{
   top:613%;
   left:7%;
-  position: absolute;
+  position: relative;
   z-index: 1;
   font-size: 1250%;
 }
@@ -519,7 +528,7 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 256vh;
+  margin-top: 436vh;
   background-color: white;
   border: 1px solid black; 
 }
