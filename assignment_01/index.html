@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div>
-		<h3 class="banner">June 24, 2021 — September 5, 2021</h3>
+		<h3 id="banner">June 24, 2021 — September 5, 2021</h3>
 	</div>
 	<div class= "txt-illusion">
 		<h3>TOTAL DARK-<br>NESS</h3>
@@ -26,36 +26,42 @@
 		</div>
 <!-- la -->
 		<div class="los-angeles">
-			<a href="#sf_banner">
+			<a href="#la_banner">
 				<button id= "la_button">
 				<h2> Los Angeles</h2></button></a>
 		</div>
 <!-- ch -->
 		<div class="chicago">
+			<a href="#ch_banner">
 			<button id= "chicago_button"><h2>Chicago</h2></button>
 		</div>
 <!-- bstn -->
 		<div class="boston">
-			<button id= "boston_button"><h2>Boston</h2></button>
+			<a href="#bstn_banner">
+			<button id= "boston_button"><h2>Boston</h2></button></a>
 		</div>
 <!-- pvd -->
 		<div class="providence">
-			<button id="providence_button"><h2>Providence</h2></button>
+			<a href="#pvd_banner">
+			<button id="providence_button"><h2>Providence</h2></button></a>
 		</div>
 <!-- nyc -->
 		<div class="nyc">
-			<button id="nyc_button"><h2>New York City</h2></button>
+			<a href="#nyc_banner">
+			<button id="nyc_button"><h2>New York City</h2></button></a>
 		</div>
 <!-- menu -->
 		<div class="menu">
-			<button id="menu_button"><h2>Menu</h2></button>
+			<a href="#menu_banner">
+			<button id="menu_button"><h2>Menu</h2></button></a>
 		</div>
 <!-- about -->
 		<div class="about">
-			<button id="about_button"><h2>About</h2></button>
+			<a href="#about_banner">
+			<button id="about_button"><h2>About</h2></button></a>
 		</div>
 	</div>
-		<div class="circle">
+		<span class="circle">
 			<button id="circle_button" onclick="javascript: (
 function () { 
     var css = 'html {-webkit-filter: invert(100%);' +
@@ -81,8 +87,8 @@ head.appendChild(style);
 "></button>
 
 <br/>
-<a href="javascript:(function(){var css='html {-webkit-filter: invert(100%);'+'-moz-filter: invert(100%);'+'-o-filter: invert(100%);'+'-ms-filter: invert(100%); }',head=document.getElementsByTagName('head')[0],style=document.createElement('style');if(!window.counter){window.counter=1;}else{window.counter++;if(window.counter%2==0){var css='html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}};style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=css;}else{style.appendChild(document.createTextNode(css));}head.appendChild(style);})();"></a>><h2> </h2></button>
-		</div>
+<a href="javascript:(function(){var css='html {-webkit-filter: invert(100%);'+'-moz-filter: invert(100%);'+'-o-filter: invert(100%);'+'-ms-filter: invert(100%); }',head=document.getElementsByTagName('head')[0],style=document.createElement('style');if(!window.counter){window.counter=1;}else{window.counter++;if(window.counter%2==0){var css='html {-webkit-filter: invert(0%); -moz-filter: invert(0%); -o-filter: invert(0%); -ms-filter: invert(0%); }'}};style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=css;}else{style.appendChild(document.createTextNode(css));}head.appendChild(style);})();"></a></button>
+		</span>
 
 		<div class="polka-dots">
 		</div>
@@ -90,10 +96,14 @@ head.appendChild(style);
 		</div>
 	</div>
 	<div class="about-container">
-		<h3 class="about_banner">ABOUT</h3>
+		<h3 id="about_banner">ABOUT</h3>
 		<div class="about_content">
-			<h3 class="about_uc">Let us take you on a journey of the senses...</h3>
+			<h3 class="about_uc">Let us take you on a<br> journey of the senses...</h3>
 			<p>It’s a foodie experience like no other! Once blindfolded let your senses take over and you’ll enjoy the smells, the sounds, the tastes and the textures in a way you never thought possible. When the sense of touch, hearing, taste and smell are heightened, food, drinks and dinner conversation become a brand new adventure!</p>
+		</div>
+		<div class="top">
+			<a href="#banner">
+			<button id="top_button"><h6>Top</h6></button></a>
 		</div>
 	</div>
 	<div class="menu-container">
@@ -109,13 +119,13 @@ head.appendChild(style);
 	<div class="sf-container">
 		<div><h3 id="sf_banner">June 24, 2021</h3></div>
 		<div><h5 class="sf_title">San Francisco</h5></div>
-		<div class="patterns"><img src="pattern_sf.png"></div>
+		<div class="patterns"><img class="loc_pattern" src="pattern_sf.png"></div>
 		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
 				<div class="location_name">Restaurant Opaque</div><br>
 				<p class="location_description_text"> "We are currently living in an era of information overload, where visual stimulation is almost inescapable. Imagine, just for an hour or two, that you abandon the visual world in exchange for a new, more stimulating dining experience- this is “Dining in the Dark", where you recognize friends by their voices, sounds tell a story, aromas come alive and elegance is felt. Opaque - Dining in the Dark – will seat you in a pitch-black dining room." </p>
-				<h4><b>ADDRESS:</b><br>689 McAllister St<br>San Francisco, CA 94102 (Fillmore)<br>$$$$ — American (New)</h4>
+				<h4><b>ADDRESS:</b><br>689 McAllister St<br>San Francisco, CA 94102 (Fillmore)</h4>
 			</div>
 		</div>
 		<div class="food_fact">
@@ -123,33 +133,29 @@ head.appendChild(style);
 			 <p class="ff_text_italics">A little sneak peek of the ingredients used in this meal!
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.gif"/>
+			 		<img class="gif" src="abalone.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.gif"/>
+			 		<img class="gif" src="crab.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.gif"/> 
+			 		<img class="gif" src="crustysourdough.gif"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.gif"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.gif"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.gif"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="shrimp.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 		</div>
 	</div>
 <!-- los angeles -->
 	<div class="la-container">
-		<h3 class="la_banner">June 30, 2021</h3>
+		<h3 id="la_banner">June 30, 2021</h3>
 		<h5 class="la_title">Los Angeles</h5>
-		<div><img src="pattern_la.png"></div>
-		<div class="la_location">
+		<div><img class="loc_pattern" src="pattern_la.png"></div>
+		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
 				<div class="location_name">The Blind Rabbit</div><br>
-				<p class="location_description_text">"Cozy, dark speakeasy featuring a secret door, imaginative cocktails & elevated American bar food.This 1920s-style club, complete with low lighting, eclectic glassware and a 1905 working piano, is the brainchild of husband-and-wife team Robert Adamson and Ying Chang. They co-created this nostalgic vision with Leonard Chan two years ago as part of the new Anaheim Packing District. Camouflaged floors within the Packing House restaurant give way to a concealed 550-square-foot bar that seats 35."</p>
-				<h4><b>ADDRESS:</b><br>440 S Anaheim Blvd #104,<br>Anaheim, CA 92805</h4>
+				<p class="location_description_text">"Cozy, dark speakeasy featuring a secret door, imaginative cocktails & elevated American bar food. This 1920s-style club, with no lighting and a 1905 working piano takes you to another time full of nostalgia."</p>
+				<h4><br><br><br><br><br><br><br><br><b>ADDRESS:</b><br>440 S Anaheim Blvd #104,<br>Anaheim, CA 92805</h4>
 			</div>
 		</div>
 		<div class="food_fact">
@@ -157,18 +163,14 @@ head.appendChild(style);
 			 <p class="ff_text_italics">Among the unique or regionally typical foods to be sampled in San Francisco are:
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.png"/>
+			 		<img class="gif" src="arugula.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.png"/>
+			 		<img class="gif" src="tomato.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.png"/> 
+			 		<img class="gif" src="pasta.gif"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.png"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.png"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.png"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="avocado.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 			</div>
@@ -176,15 +178,15 @@ head.appendChild(style);
 
 <!-- chicago -->
 	<div class="ch-container">
-		<h3 class="ch_banner">July 7, 2021</h3>
+		<h3 id="ch_banner">July 7, 2021</h3>
 		<h5 class="ch_title">Chicago</h5>
-		<div><img src="pattern_ch.png"></div>
+		<div><img class="loc_pattern" src="pattern_ch.png"></div>
 		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
 				<div class="location_name">The Blind Cafe</div><br>
 				<p class="location_description_text">The "Blind Café uses the concept of social engagement in 100% darkness to create innovative and imaginative pop-up experiences that profoundly impact people's social perspective. We work for positive social change by creating and embracing ground-breaking and innovative ideas that identify problems in society and then work proactively to create scalable and sustainable solutions in the dark."</p>
-				<h4><b>ADDRESS:</b><br>340 W Armitage Ave<br>Chicago, IL 60614</h4>
+				<h4><br><br><br><b>ADDRESS:</b><br>340 W Armitage Ave<br>Chicago, IL 60614</h4>
 			</div>
 		</div>
 		<div class="food_fact">
@@ -192,27 +194,23 @@ head.appendChild(style);
 			 <p class="ff_text_italics">Among the unique or regionally typical foods to be sampled in San Francisco are:
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.png"/>
+			 		<img class="gif" src="cheese.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.png"/>
+			 		<img class="gif" src="frenchbread.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.png"/> 
+			 		<img class="gif" src="beans.gif"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.png"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.png"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.png"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="beef.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 		</div>
 	</div>
 <!-- boston -->
 	<div class="bstn-container">
-		<h3 class="bstn_banner">July 14, 2021</h3>
+		<h3 id="bstn_banner">July 14, 2021</h3>
 		<h5 class="bstn_title">Boston</h5>
-		<div><img src="pattern_bstn.png"></div>
+		<div><img class="loc_pattern" src="pattern_bstn.png"></div>
 		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
@@ -226,33 +224,29 @@ head.appendChild(style);
 			 <p class="ff_text_italics">Among the unique or regionally typical foods to be sampled in San Francisco are:
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.png"/>
+			 		<img class="gif" src="lobster.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.png"/>
+			 		<img class="gif" src="potato.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.png"/> 
+			 		<img class="gif" src="crustysourdough.png"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.png"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.png"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.png"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="clam.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 		</div>
 	</div>
 <!-- providence -->
 	<div class="pvd-container">
-		<h3 class="pvd_banner">July 21, 2021</h3>
+		<h3 id="pvd_banner">July 21, 2021</h3>
 		<h5 class="pvd_title">Providence</h5>
-		<div><img src="pattern_pvd.png"></div>
+		<div><img class="loc_pattern" src="pattern_pvd.png"></div>
 		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
 				<div class="location_name">Savini’s Pomodoro </div><br>
 				<p class="location_description_text">Originating in Paris, dining in the dark is a culinary experience that has swept across the world as curious diners and adventurous chefs seek opportunities to heighten the interplay of the senses through food. After sitting for dinner, guests are asked to don blindfolds before the first course is served to start what its promoters call a unique and entertaining dining experience.</p>
-				<h4><b>ADDRESS:</b><br>52 Power St<br>Providence, RI 02906
+				<h4><br><br><br><b>ADDRESS:</b><br>52 Power St<br>Providence, RI 02906
 </h4>
 			</div>
 		</div>
@@ -261,52 +255,44 @@ head.appendChild(style);
 			 <p class="ff_text_italics">Among the unique or regionally typical foods to be sampled in San Francisco are:
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.png"/>
+			 		<img class="gif" src="cornmeal.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.png"/>
+			 		<img class="gif" src="chocolate.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.png"/> 
+			 		<img class="gif" src="lemon.gif"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.png"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.png"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.png"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="corn.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 		</div>
 	</div>
 <!-- nyc -->
 	<div class="nyc-container">
-		<h3 class="nyc_banner">July 29, 2021</h3>
+		<h3 id="nyc_banner">July 29, 2021</h3>
 		<h5 class="nyc_title">New York City</h5>
-		<div><img src="pattern_nyc.png"></div>
+		<div><img class="loc_pattern" src="pattern_nyc.png"></div>
 		<div class="location">
 			<div class="location_text">
 				<div class="location_title">Location:</div><br>
 				<div class="location_name">Camaje Bistro</div><br>
-				<p class="location_description_text">This laid-back Franco-American bistro is most known for its “Dinner in the Dark." Because you no longer have sight, your other senses — smell and taste — are heightened. The sounds of the restaurant, and its textures, become hyper-emphasized. This makes the food you eat, and which you can’t see, entirely distinctive. Dinner in the Dark is a great place for those who want to try something very out of the ordinary for the evening. Oh, and only once you’ve finished your meal is a menu of what you ate is revealed.</p>
-				<h4><b>ADDRESS:</b><br>85 MacDougal St<br>New York, NY 10012</h4>
+				<p class="location_description_text">This laid-back Franco-American bistro is most known for its “Dinner in the Dark." The sounds of the restaurant, and its textures, become hyper-emphasized. This makes the food you eat, and which you can’t see, entirely distinctive. It's a great place for those who want to try something very out of the ordinary for the evening. Oh, and only once you’ve finished your meal is a menu of what you ate is revealed.</p>
+				<h4><br><br><b>ADDRESS:</b><br>85 MacDougal St<br>New York, NY 10012</h4>
 			</div>
-		</div>
+		</div><br><br>
 		<div class="food_fact">
 			 <div class="ff_title">Menu Items:</div><br>
 			 <p class="ff_text_italics">Among the unique or regionally typical foods to be sampled in San Francisco are:
 			 	<ul class="ff_text">
 			 		<li class="one">Ingredient 1</li>
-			 		<img src="abalone.png"/>
+			 		<img class="gif" src="mushroom.gif"/>
 			 		<li class="two">Ingredient 2</li>
-			 		<img src="crab.png"/>
+			 		<img class="gif" src="steak.gif"/>
 			 		<li class="three">Ingredient 3</li>
-			 		<img src="crustysourdough.png"/> 
+			 		<img class="gif" src="eggs.gif"/> 
 			 		<li class="four">Ingredient 4</li>
-			 		<img src="frenchbread.png"/>
-			 		<li class="five">Ingredient 5</li>
-			 		<img src="shrimp.png"/>
-			 		<li class="six">Ingredient 6</li>
-			 		<img src="sanddabs.png"/>
-			 		<li class="unstyled-bp"><h4>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
+			 		<img class="gif" src="wine.gif"/>
+			 		<li class="unstyled-bp"><h4><br><br><br>*ALLERGIES AND DIETARY RESTRICTIONS ARE RESPECTED*<br>Our teams do everything they can to meet your dietary restrictions and allergies. When making your booking, simply tell us, and remind us on the day of your visit when placing your order. We will also ask you to tell your server when they bring your meal.</h4></li>
 			 	</ul>
 			 </p>
 		</div>

@@ -34,6 +34,8 @@ h2{
 	font-weight: 400;
 	font-style: normal;
 	line-height: 100%;
+  color: #EFEFEF;
+/*color: black;*/
 }
 
 h3{
@@ -43,13 +45,16 @@ h3{
 	font-family: 'moonbasealpha';
 	line-height: 80%;
 	text-align: left;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
 
 }
 
 h4{
   font-size: 60%;
   text-align: left;
-  line-height: 100%;
+  line-height: 130%;
   font-family: ten-oldstyle, serif;
   font-weight: 400;
   font-style: italic;
@@ -63,6 +68,17 @@ h5{
   text-align: left;
   line-height: 100%;
   margin: auto 0;
+}
+
+h6{
+  font-size: 200%;
+  text-align: center;
+  line-height: 80%;
+  font-family: 'moonbasealpha';
+  line-height: 80%;
+  text-align: left;
+  color:white;
+  letter-spacing: 3px;
 }
 
 .polka-dots{
@@ -82,7 +98,7 @@ h5{
 }
 
 
-.banner{
+#banner{
 	background-color: black;
 	display: flex;
 	position: relative;
@@ -93,7 +109,7 @@ h5{
 	height: 80%;
 	border: 2px solid black;
 	padding: 30px;
-	top:-65px;
+	top:-90px;
   width: 100vw;
   color: white;
 }
@@ -145,7 +161,7 @@ h5{
   height: 1%;
   border: 2px solid black;
   padding: 30px;
-  top:-100px;
+  top:-220px;
   width: 100vw;
   color: white;
   z-index: 1;
@@ -153,7 +169,7 @@ h5{
 
 .los-angeles{
 	position:relative;
-	top:-8%;
+	top:-7%;
 	left: 50%;
   filter: drop-shadow(0px 0px 10px black);
 }
@@ -168,9 +184,15 @@ h5{
 
 }
 
+#la_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
+
 .chicago{
 	position:relative;
-	top:-9%;
+	top:-7%;
 	left: 67%;
   filter: drop-shadow(0px 0px 10px black);
 }
@@ -180,10 +202,15 @@ h5{
     border: 1px solid black;
     z-index: -3;
 }
+#chicago_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
 
 .boston{
   position:relative;
-  top:-8.5%;
+  top:-6%;
   left: 5%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -197,9 +224,14 @@ h5{
     position: 60px 90px;
 	
 }
+#boston_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
 .providence{
   position:relative;
-  top:-20%;
+  top:-17%;
   left: 33%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -213,9 +245,14 @@ h5{
     position: 60px 90px;
 	
 }
+#providence_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
 .nyc{
   position:relative;
-  top:-31.5%;
+  top:-28.5%;
   left: 56.8%;
   filter: drop-shadow(0px 0px 10px black);
   
@@ -227,6 +264,11 @@ h5{
     border: 1px solid black;
     z-index: -3;
     position: 60px 90px;
+}
+#nyc_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
 }
 
 .menu{
@@ -244,6 +286,13 @@ h5{
   z-index: -3;
   position: 60px 90px;
 
+}
+
+
+#menu_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
 }
 
 #menu_banner{
@@ -277,8 +326,13 @@ h5{
     z-index: -3;
     position: 60px 90px;
 }
+#about_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
 
-.about_banner{
+#about_banner{
   background-color: black;
   display: flex;
   position: relative;
@@ -289,7 +343,7 @@ h5{
   height: 80%;
   border: 2px solid black;
   padding: 30px;
-  top:800px;
+  top:730px;
   width: 100vw;
   color: white;
 
@@ -298,17 +352,20 @@ h5{
 .circle{
   position:relative;
   top:1.9%;
-  left: 29.1%;
+  left: 39.1%;
   filter: drop-shadow(0px 0px 10px black);
   
 }
+
 #circle_button{
     padding: 6%;
     border-radius: 50%;
     border: 1px solid black;
-    z-index: -3;
+    z-index: 1;
     width: 15px;
     height: 15px;
+    position:relative;
+    top:0%;
 }
 
 #circle_button:hover {
@@ -316,6 +373,7 @@ h5{
   color: white;
   transition-duration: 0.6s;
 }
+
 
 .container{
 	padding: 40px;
@@ -329,7 +387,7 @@ h5{
   background-color: white;
   display: block;
   position: relative;
-  top: 750px;
+  top: 720px;
   height: 30vw;
   width: 60vw;
   margin: auto;
@@ -355,7 +413,7 @@ h5{
 }
 
 .sf_title{
-  top:20%;
+  top: 6%;
   left:7%;
   position: absolute;
   z-index: 1;
@@ -365,9 +423,9 @@ h5{
 .sf-container{
   position: absolute;
   width: 100%;
-  height: 130vh;
+  height: 100vh;
   margin-left: 0%;
-  margin-top: 78vh;
+  margin-top: 123vh;
   background-color: white;
   border: 1px solid black;
   top:285%;
@@ -381,7 +439,7 @@ div{
 .location {
   position: absolute;
   width: 24%;
-  height: 38%
+  height: 57%
   margin-left:20%;
   margin-top: -2%;
   left:7%;
@@ -390,7 +448,7 @@ div{
   text-align: left;
   background-color: white;
   border: 1px solid black;
-  top:42%;
+  top:36%;
 }
 
 .location_text{
@@ -403,8 +461,8 @@ div{
 .food_fact{
   position: absolute;
   width: 54%;
-  height: 40%;
-  margin-left:1%;
+  height: 55.5%;
+  margin-left:2%;
   margin-top: -2%;
   left:36%;
   font-size: 80%;
@@ -412,7 +470,7 @@ div{
   text-align: left;
   background-color: white;
   border: 1px solid black;
-  top: 42%;
+  top: 36%;
 }
 
 .location_title{
@@ -420,6 +478,7 @@ div{
   font-family: 'moonbasealpha';
   line-height: 80%;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .location_name{
@@ -434,6 +493,7 @@ div{
   font-family: 'moonbasealpha';
   line-height: 80%;
   text-align: left;
+  letter-spacing: 3px;
 }
 
 .ff_text{
@@ -450,7 +510,7 @@ div{
   font-style: italic85
 }
 
-img{
+.loc_pattern{
   position:absolute;
   z-index: 0;
   left: -20px;
@@ -464,7 +524,7 @@ img{
   border: 1px solid black;
 }
 
-.la_banner{
+#la_banner{
   background-color: black;
   display: flex;
   position: relative;
@@ -474,14 +534,14 @@ img{
   height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:-214px;
+  top:-210px;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .la_title{
-  top:-25%;
+  top:-32%;
   left:7%;
   position: relative;
   z-index: 1;
@@ -493,30 +553,30 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 230vh;
+  margin-top: 240vh;
   background-color: white;
   border: 1px solid black; 
 
 }
 
-.ch_banner{
+#ch_banner{
   background-color: black;
   display: flex;
   position: relative;
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:2367px;
+  top:-210px;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .ch_title{
-  top:613%;
+  top:-32%;
   left:7%;
   position: relative;
   z-index: 1;
@@ -528,30 +588,31 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 436vh;
+  margin-top: 370vh;
   background-color: white;
   border: 1px solid black; 
+  top:267%;
 }
 
 
-.bstn_banner{
+#bstn_banner{
   background-color: black;
   display: flex;
   position: relative;
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:3157px;
+  top:-211px;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .bstn_title{
-  top:729%;
+  top:6%;
   left:7%;
   position: absolute;
   z-index: 1;
@@ -563,29 +624,30 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 345vh;
+  margin-top: 345%;
   background-color: white;
-  border: 1px solid black; 
+  border: 1px solid black;
+  top:53.5%;
 }
 
-.pvd_banner{
+#pvd_banner{
   background-color: black;
   display: flex;
   position: relative;
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:3937px;
+  top:-25%;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .pvd_title{
-  top:843%;
+  top:7%;
   left:7%;
   position: absolute;
   z-index: 1;
@@ -597,29 +659,30 @@ img{
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 434vh;
+  margin-top: 297.5%;
   background-color: white;
   border: 1px solid black;   
+  top:264%;
 }
 
-.nyc_banner{
+#nyc_banner{
   background-color: black;
   display: flex;
   position: relative;
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:4735px;
+  top:-211px;
   width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .nyc_title{
-  top:955%;
+  top:5%;
   left:7%;
   position: absolute;
   z-index: 1;
@@ -634,10 +697,19 @@ img{
   margin-top:523.5vh;
   background-color: white;
   border: 1px solid black;   
+  top:457%;
 }
 
-img{
-  display:none
+.gif{
+  display:none;
+  top: 30%;
+  left:70%;
+  z-index: 0;
+  transform: scale(1);
+  background-color: white;
+  border: 1px solid black;
+  position:absolute;
+
 }
 
 li.one:hover + img{
@@ -704,3 +776,33 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
+
+#top_button {
+    padding: 3% 6%;
+    border-radius: 150px;
+    border: 1px solid black;
+    z-index: 1;
+    position: absolute;
+    filter: drop-shadow(0px 0px 10px black);
+    top:238%;
+    left:70%;
+    text-transform: uppercase;
+    background-color: white;
+    position: absolute;
+}
+
+#top_button:hover {
+  background-color: black; 
+  color: white;
+  transition-duration: 0.6s;
+}
+
+.bulb_img{
+  height: 20%;
+  width:20%;
+}
+
+
+
+
