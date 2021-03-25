@@ -158,10 +158,10 @@ h6{
   font-size: 550%;
   border-radius: 0%;
   width: 100vw;
-  height: 1%;
+  height: 7%;
   border: 2px solid black;
   padding: 30px;
-  top:-220px;
+  top:-210px;
   width: 100vw;
   color: white;
   z-index: 1;
@@ -395,6 +395,7 @@ h6{
   padding: 3% 5%;
   font-size: 180%;
   border-radius: 150px;
+  overflow: scroll;
 
 }
 
@@ -410,6 +411,7 @@ h6{
   padding: 3% 5%;
   font-size: 180%;
   border-radius: 150px;
+  overflow: scroll;
 }
 
 .sf_title{
@@ -429,6 +431,7 @@ h6{
   background-color: white;
   border: 1px solid black;
   top:265%;
+  display: flex;
 
 }
 
@@ -526,24 +529,22 @@ div{
 
 #la_banner{
   background-color: black;
-  display: flex;
   position: relative;
   font-size: 550%;
   border-radius: 0%;
-  width: 100vw;
+  width: 100%;
   height: 7%;
   border: 2px solid black;
   padding: 30px;
   top:-210px;
-  width: 100vw;
   color: white;
   z-index: 1;
 }
 
 .la_title{
-  top:-32%;
+  top:5%;
   left:7%;
-  position: relative;
+  position: absolute;
   z-index: 1;
   font-size: 1250%;
 }
@@ -556,6 +557,7 @@ div{
   margin-top: 235vh;
   background-color: white;
   border: 1px solid black; 
+  display: flex;
 
 }
 
@@ -576,9 +578,9 @@ div{
 }
 
 .ch_title{
-  top:-29%;
+  top:5%;
   left:7%;
-  position: relative;
+  position: absolute;
   z-index: 1;
   font-size: 1250%;
 }
@@ -592,6 +594,7 @@ div{
   background-color: white;
   border: 1px solid black; 
   top:267%;
+  display: flex;
 }
 
 
@@ -628,6 +631,7 @@ div{
   background-color: white;
   border: 1px solid black;
   top:73.5%;
+  display: flex;
 }
 
 #pvd_banner{
@@ -663,6 +667,7 @@ div{
   background-color: white;
   border: 1px solid black;   
   top:277%;
+  display: flex;
 }
 
 #nyc_banner{
@@ -698,6 +703,7 @@ div{
   background-color: white;
   border: 1px solid black;   
   top:430%;
+  display: flex;
 }
 
 .gif{
