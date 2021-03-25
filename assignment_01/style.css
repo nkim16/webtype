@@ -1108,14 +1108,14 @@ a:visited {
   top:10px;
 }*/
 .about_uc{
-  text-transform: uppercase;
-  font-size: 140px;
-  line-height: 60%;
-  margin: auto;
+  font-size: 120px;
+  margin: 15px;
+  line-height: 90%;
+
 }
 
 .about-menu{
-  font-size: 150px;
+  font-size: 136px;
 /*  line-height: -10%;*/
   margin: auto;
 }
