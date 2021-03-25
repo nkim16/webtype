@@ -406,7 +406,8 @@ h6{
   padding: 3% 5%;
   font-size: 180%;
   border-radius: 150px;
-  overflow: scroll;
+  filter: drop-shadow(0px 0px 10px black);
+/*  overflow: scroll;*/
 
 }
 
@@ -423,6 +424,7 @@ h6{
   font-size: 180%;
   border-radius: 150px;
   overflow: scroll;
+  filter: drop-shadow(0px 0px 10px black);
 }
 
 .sf_title{
@@ -467,7 +469,8 @@ div{
   background-color: white;
   border: 1px solid black;
   top:36%;
-   overflow: scroll;
+  overflow: scroll;
+  filter: drop-shadow(0px 0px 10px black);
 }
 
 .location_text{
@@ -490,7 +493,8 @@ div{
   background-color: white;
   border: 1px solid black;
   top: 36%;
-   overflow: scroll;
+/*   overflow: scroll;*/
+  filter: drop-shadow(0px 0px 10px black);
 }
 
 .location_title{
@@ -1106,7 +1110,7 @@ a:visited {
 .about_uc{
   text-transform: uppercase;
   font-size: 140px;
-  line-height: 70%;
+  line-height: 60%;
   margin: auto;
 }
 
