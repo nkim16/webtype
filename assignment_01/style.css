@@ -1096,11 +1096,20 @@ a:visited {
 }
 
 
-.about_menu_info{
+/*.about_menu_info{
   font-size: 90%;
   position: relative;
   top:10px;
+}*/
+.about_uc{
+  text-transform: uppercase;
+  font-size: 140px;
+  line-height: 70%;
+  margin: auto;
 }
 
-
-
+.about-menu{
+  font-size: 150px;
+/*  line-height: -10%;*/
+  margin: auto;
+}
