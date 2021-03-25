@@ -467,6 +467,7 @@ div{
   background-color: white;
   border: 1px solid black;
   top:36%;
+   overflow: scroll;
 }
 
 .location_text{
@@ -489,6 +490,7 @@ div{
   background-color: white;
   border: 1px solid black;
   top: 36%;
+   overflow: scroll;
 }
 
 .location_title{
