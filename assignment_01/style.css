@@ -320,7 +320,7 @@ h6{
 }
 
 #about_button{
-    padding: 5%;
+    padding: 3%;
     border-radius: 50%;
     border: 1px solid black;
     z-index: -3;
@@ -347,6 +347,17 @@ h6{
   width: 100vw;
   color: white;
 
+}
+
+#about-container{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin-left: 0%;
+  margin-top: 123vh;
+  border: 1px solid black;
+  top:265%;
+  display: flex;
 }
 
 .circle{
@@ -423,14 +434,14 @@ h6{
 }
 
 .sf-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
   margin-top: 123vh;
   background-color: white;
   border: 1px solid black;
-  top:265%;
+/*  top:265%;*/
   display: flex;
 
 }
@@ -555,11 +566,11 @@ div{
 }
 
 .la-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 235vh;
+  margin-top: 13vh;
   background-color: white;
   border: 1px solid black; 
   display: flex;
@@ -595,14 +606,14 @@ div.la-container{
 }
 
 .ch-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 346vh;
+  margin-top:13vh;
   background-color: white;
   border: 1px solid black; 
-  top:267%;
+/*  top:267%;*/
   display: flex;
 }
 
@@ -636,14 +647,14 @@ div.ch-container{
 }
 
 .bstn-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 345%;
+  margin-top: 13vh;
   background-color: white;
   border: 1px solid black;
-  top:73.5%;
+/*  top:73.5%;*/
   display: flex;
 }
 div.bstn-container{
@@ -675,14 +686,14 @@ div.bstn-container{
 }
 
 .pvd-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top: 297.5%;
+  margin-top: 13vh;
   background-color: white;
   border: 1px solid black;   
-  top:277%;
+/*  top:277%;*/
   display: flex;
 }
 
@@ -715,14 +726,14 @@ div.pvd-container{
 }
 
 .nyc-container{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   margin-left: 0%;
-  margin-top:523.5vh;
+  margin-top:13vh;
   background-color: white;
   border: 1px solid black;   
-  top:430%;
+/*  top:430%;*/
   display: flex;
 }
 
@@ -796,6 +807,8 @@ li.six:hover + img{
 
 .about_uc{
   text-transform: uppercase;
+  font-size: 300%;
+  line-height: 70%;
 }
 
 a:link {
