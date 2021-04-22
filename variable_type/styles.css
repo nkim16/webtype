@@ -1,0 +1,387 @@
+@font-face {
+  font-family: grow;
+  src: url(fonts/growGX.ttf);
+}
+
+:root {
+  --font-size: 280px;
+  --font-weight: 100;
+}
+
+body,
+html {
+/*  overflow: hidden; /* important */*/
+  margin: 0;
+  font-family: 'grow';
+    background-color: #f0e7e6;
+        width:100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: #f0e7e6;
+    overflow-x: hidden;
+    width:100vw;
+    height: 100vh;
+/*     border-right:  100px solid black; 
+     border-left:  100px solid black; */
+       
+}
+
+.section {
+  background-color: #f0e7e6;
+  height: 150vh;
+  padding: 100px;
+  font-size: calc(var(--font-size) * 0.735);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  z-index: -20;
+ /* background: rgb(63,94,251);
+background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 100%);*/
+}
+
+.text {
+  position: fixed;
+/*  top: 0%;*/
+  margin-top: calc(var(--font-size) / -1);
+  font-variation-settings: "wght" var(--font-weight);
+  text-align: center;
+  line-height: 102%;
+    letter-spacing: -12px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color:black;
+    margin: auto;
+    z-index: 2;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+     word-wrap: break-word;
+/*    transform: scale(0.9);*/
+     filter: drop-shadow(1px 15px 10px black);
+/*background-image: url(vine.png);*/
+}
+
+.vines_top{
+  position: absolute;
+  top:0%;
+}
+
+.vines_side{
+  position: absolute;
+  top:0%;
+  transform: rotate(90deg);
+  left: 29%;
+}
+.dark{
+  color: black;
+      -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+}
+/*.fox {
+  position: relative;
+  flex: 0 1 auto;
+  align-self: auto;
+}*/
+.light{
+  color: white;
+        -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+     width:90vw;
+    height: 100vh;
+}
+
+.dark{
+  color: black;
+      -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+}
+
+.light{
+  color: white;
+        -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+     width:90vw;
+    height: 100vh;
+}
+
+.pixel{
+  color: black;
+        -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+     width:90vw;
+    height: 100vh;
+    font-size: 0.7em;
+}
+
+section{
+  height: 100vh;
+  background-color: transparent;
+  width:100vw;
+    height: 100vh;
+/*  border: 3px solid green;*/
+ /*background: rgb(63,94,251);
+background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(240,231,230,1) 100%);
+    z-index: -20;*/
+
+}
+
+.images_landing{
+    position: relative;
+    z-index: 4;
+    background-position: center center;
+    background-size: cover;
+/*    filter: drop-shadow(1px 15px 10px black);*/
+/*    margin:auto 0;*/
+/*top:30%;*/
+
+}
+
+ .dragme{
+    position: relative;
+    width: 18%;
+    filter: drop-shadow(1px 15px 10px black);
+
+  }
+
+  #vine{
+    z-index: 8;
+    width:45%;
+    top: 80%;
+    margin: auto;
+  }
+
+  #disappear{
+    opacity: 0%;
+  }
+  .blackbg{
+    background: black;
+  }
+
+  #flower05{
+    position: relative;
+    z-index: 15;
+  }
+
+  #grass{
+    position: absolute;
+    z-index: 15;
+    width:80%;
+    left: 10%;
+    top:50%;
+    transform: scaleX(1.5);
+
+  }
+
+  .images_section{
+    position: relative;
+    z-index: 4;
+    background-position: center center;
+    background-size: cover;
+    top:170%;
+    width: 80%;
+    margin: auto;
+
+}
+
+  .images_section05{
+    position: relative;
+    z-index: 4;
+    background-position: center center;
+    background-size: cover;
+    top:130%;
+    width: 80%;
+    margin: auto;
+    vertical-align: middle;
+
+}
+.sec02{
+/*  background: rgb(170,170,170);
+background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(240,231,230,1) 100%);*/
+/*background-image: url(landing_bg.png)*/
+}
+#bust03{
+  transform:rotate(30deg);
+  width:20%;
+}
+
+#bust05{
+  transform: rotate(-60deg)
+}
+
+#bust{
+  transform: rotate(-10deg)
+}
+
+#bust02{
+  transform: rotate(15deg)
+}
+
+#bust04{
+  transform: rotate(8deg)
+}
+
+.sec03{
+/*  background-image: url(landing_bg.png)*/
+
+}
+
+#vase01{
+  transform: rotate(5deg)
+}
+
+#vase02{
+  transform: rotate(-20deg)
+}
+
+#vase03{
+  transform: rotate(30deg)
+}
+.text02{
+  text-align: left;
+  font-size: 6.7em;
+  margin: 70px;
+  line-height: 1em;
+}
+
+.text03{
+  text-align: left;
+  font-size: 8.7em;
+  margin: 70px;
+  line-height: 1em;
+  color: white;
+  font-family: study, serif;
+
+font-weight: 400;
+
+font-style: normal;
+}
+
+.text02{
+
+font-family: study, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+.sec05{
+background: rgb(75,64,72);
+background: linear-gradient(0deg, rgba(75,64,72,1) 0%, rgba(240,231,230,1) 100%);
+}
+
+#vase01{
+  width:10%;
+}
+
+
+.sec06{
+  background: rgb(45,43,44);
+background: linear-gradient(0deg, rgba(45,43,44,1) 0%, rgba(75,64,72,1) 100%);
+}
+
+.sec07{
+  background: rgb(41,41,41);
+background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(45,43,44,1) 100%);
+}
+
+.sec08{
+  background: rgb(32,32,32);
+background: linear-gradient(0deg, rgba(32,32,32,1) 0%, rgba(41,41,41,1) 100%);
+}
+
+.sec09{
+  background: rgb(15,15,15);
+background: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(32,32,32,1) 100%);
+}
+
+.sec10{
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 100%);
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.images_section11{
+  width: 80%;
+}
+
+.images_section08{
+  width: 100%;
+  z-index: 15;
+}
+
+#checkerboard_small{
+  width: 10%;
+  left: 80%;
+}
+
+#checkerboard{
+  width: 10%;
+  left: 80%;
+}
+
+#line01{
+  left:80%;
+}
+
+#shape13{
+  left:60%;
+}
+
+#line02{
+  left:80%;
+}
+
+#line12{
+  left:60%;
+}
+
+.bg{
+width: 100%;
+}
+

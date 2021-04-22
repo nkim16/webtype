@@ -1,46 +1,453 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-
-<!--      <script src="src/index.js"></script> -->
+  <head>
+    <title>Variable Type</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dvr5psd.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-        <link href="variable.css" rel="stylesheet">
-    <title>Variable Font</title>
- </head>
-<body>
-	<div class="landing_container">
-		<h1 class="text" >Who in the world am I?<br>That is the great puzzle...</h1>
-		<div class="images_landing">
-			<img draggable="true" class="dragme" src="flower01.png">
-			<img draggable="true" class="dragme" src="flower02.png">
-			<img draggable="true" class="dragme" src="flower03.png">
-			<img draggable="true" class="dragme" src="flower04.png">
-			<img draggable="true" class="dragme" src="flower05.png">
-			<img draggable="true" class="dragme" src="flower06.png">
-			<img draggable="true" class="dragme" src="key.png">
-			<img draggable="true" class="dragme" src="checkerboard.png">
-			<img draggable="true" class="dragme" src="checkerboard_small.png">
-			<img draggable="true" class="dragme" src="squiggle.png">
-			<img draggable="true" class="dragme" src="star.png">
-	<!-- 		<img draggable="true" class="vine" src="vine.png"> -->
-			<img draggable="true" class="dragme" src="eye.png">
-		</div>
-		<div>
-			<img class="arrow" src="arrow.png">
-		</div>
-	</div>
-	<div class="level-one">
-		<h2 class="lvl1-txt">It's no use going back to yesterday because I was a different person then.</h2>
-	</div>
-	<div class="level-three">
-	</div>
-	<div class="level-four">
-		<h2 class="lvl4-txt">But it's no use now to pretend to be two people. Why there's hardly enough of me left to make one respectable person.</h2>
-	</div>
-		<div class="level-two">
-				<h2 class="alphabet">ABCDEFGHIJ<br>KLMNOPQRSTU<br>VWXYZ</h2>
-<!-- 		<img class="grass" src="grass.png"> -->
-	</div>
-</body>
+   <!--  <script src="index.js"></script> -->
+  </head>
+
+  <body>
+    <div class="enter">
+    <
+    <div class="section">
+      <!-- <div class="fox">🦊</div> -->
+      <div class="text"><Br>POLAR NEEDS<BR> TO GO DOWN</div>
+<!--       <div class="clouds">
+        <img id="cloud01" src="cloud01.png">
+        <img id="cloud02" src="cloud02.png">
+        <img id="cloud03" src="cloud03.png">
+      </div> -->
+      <div class="vines_top">
+      <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+         <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+         <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+     </div>
+
+<div class="vines_side">
+      <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+
+     </div>
+      <div class="images_landing">
+
+<!--        <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png">
+       <img id="vine" class="vine" src="vine.png"> -->
+
+      <img id="flower01" class="dragme" src="flower01.png">
+      <img id="flower02" class="dragme" src="flower02.png">
+      <img id="flower03" class="dragme" src="flower03.png">
+      <img id="flower04" class="dragme" src="flower04.png">
+      <img id="flower05" class="dragme" src="flower05.png">
+      <img id="flower06" class="dragme" src="flower06.png">
+     <img id="flower07" class="dragme" src="flower07.png">
+     <img id="flower08" class="dragme" src="flower08.png">
+     <img id="grass" class="dragme" src="grass.png">
+      <!-- <img draggable="true" class="dragme" src="key.png">
+      <img draggable="true" class="dragme" src="checkerboard.png">
+      <img draggable="true" class="dragme" src="checkerboard_small.png">
+      <img draggable="true" class="dragme" src="squiggle.png">
+      <img draggable="true" class="dragme" src="star.png"> -->
+ 
+ <!--      <img draggable="true" class="dragme" src="eye.png"> -->
+    </div>
+     <!--  <div class="fox">🦊</div> -->
+    </div>
+    <script type=
+    "text/javascript">
+      let flower01=document.getElementById("flower01");
+      let flower02=document.getElementById("flower02");
+     let flower03=document.getElementById("flower03");
+     let flower04=document.getElementById("flower04");
+     let flower05=document.getElementById("flower05");
+     let flower06=document.getElementById("flower06");
+
+     let flower07=document.getElementById("flower07");
+     let flower08=document.getElementById("flower08");
+     let vine=document.getElementById("vine");
+     let grass=document.getElementById("grass");
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        flower01.style.right= value * 0.9 + 'px';
+        flower02.style.bottom= value * 0.6 + 'px';
+        flower03.style.bottom= value * 0.7 + 'px';
+        flower04.style.left= value * 0.4 + 'px';
+        flower05.style.right= value * 2.8 + 'px';
+        flower06.style.right= value * 2.9 + 'px';
+        flower07.style.left= value * 2.9 + 'px';
+        flower08.style.left= value * 2.9 + 'px';
+        grass.style.bottom= value * 0.2 + 'px';
+
+        vine.style.bottom= value * 0.9 + 'px';
+     })
+
+   </script>
+    <section class="sec02">
+      <div class="images_section">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="bust02" class="dragme" src="bust02.png">
+      <img id="bust03" class="dragme" src="bust03.png">
+
+      <img id="bust" class="dragme" src="bust.png">
+     <img id="bust04" class="dragme" src="bust04.png">
+     <img id="bust05" class="dragme" src="bust05.png">
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let bust02=document.getElementById("bust02");
+     let bust03=document.getElementById("bust03");
+
+
+     let bust=document.getElementById("bust");
+
+     let bust04=document.getElementById("bust04");
+    let bust05=document.getElementById("bust05");
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        bust02.style.bottom= value * 0.2 + 'px';
+        bust03.style.bottom= value * 0.7 + 'px';
+
+        bust.style.bottom= value * 0.5 + 'px';
+        bust04.style.bottom= value * 0.4 + 'px';
+        bust05.style.bottom= value * 0.4 + 'px';
+        
+     })
+
+   </script>
+    </section>
+     <section class="sec03">
+      <div class="images_section">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <!-- <img id="vase01" class="dragme" src="vase01.png"> -->
+      <img id="vase02" class="dragme" src="vase02.png">
+
+      <img id="vase03" class="dragme" src="vase03.png">
+    
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      
+     let vase02=document.getElementById("vase02");
+
+
+     let vase03=document.getElementById("vase03");
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        
+       vase02.style.bottom= value * 0.7 + 'px';
+
+        vase03.style.bottom= value * 0.5 + 'px';
+        
+        
+     })
+   </script>
+<!--             02 -->
+    </section>
+    <section>
+<img id="vine" class="vine" src="vine.png">
+<img id="vine" class="vine" src="vine.png">
+    </section>
+     <section class="sec04">
+<!--       03 -->
+   <div class="text02">Polar is confused about whether they like their Organic or Rigid Form. By going down a rabbit hole, this display type will discover it's identity. Inspired by Lewis Carroll's <i>"Alice In Wonderland,"</i> Polar will reach the bottom and choose to decide to live above the rabbit hole or in the bottom of the rabbit hole.</div>
+    </section>
+
+    <section class="sec05">
+        <div class="images_section05">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="realkey" class="dragme" src="realkey.png">
+      <img id="mirror" class="dragme" src="mirror.png">
+      <img id="vase01" class="dragme" src="vase01.png">
+
+      <img id="housekey" class="dragme" src="housekey.png">
+    
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let realkey=document.getElementById("realkey");
+     let mirror=document.getElementById("mirror");
+     let vase01=document.getElementById("vase01");
+
+
+     let housekey=document.getElementById("housekey");
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        realkey.style.bottom= value * 0.4 + 'px';
+       mirror.style.bottom= value * 0.6 + 'px';
+       vase01.style.bottom= value * 0.3 + 'px';
+
+        housekey.style.bottom= value * 0.5 + 'px';
+        
+        
+     })
+   </script>
+<!--             02 -->
+<!--         04 -->
+    </section>
+      <section class="sec06">
+<!--         05 -->
+    </section>
+      <section class="sec07">
+        
+<!--         06 -->
+    </section>
+      <section class="sec08">
+        <div class="images_section08">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="shape01" class="dragme" src="shape01.png">
+      <img id="shape02" class="dragme" src="shape02.png">
+      <img id="shape03" class="dragme" src="shape03.png">
+      <img id="shape04" class="dragme" src="shape04.png">
+      <img id="shape05" class="dragme" src="shape05.png">
+    
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let shape01=document.getElementById("shape01");
+     let shape02=document.getElementById("shape02");
+     let shape03=document.getElementById("shape03");
+     let shape04=document.getElementById("shape04");
+     let shape05=document.getElementById("shape05");
+     let shape06=document.getElementById("shape06");
+
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        shape01.style.bottom= value * 0.4 + 'px';
+       shape02.style.bottom= value * 0.6 + 'px';
+       shape03.style.bottom= value * 0.3 + 'px';
+       shape04.style.bottom= value * 0.4 + 'px';
+       shape05.style.bottom= value * 0.6 + 'px';
+       shape06.style.bottom= value * 0.3 + 'px';
+})
+</script>
+    </section>
+      <section class="sec09">
+<!--         08 -->
+    </section>
+      <section class="sec10">
+<div class="images_section10">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="shape07" class="dragme" src="shape07.png">
+      <img id="shape08" class="dragme" src="shape08.png">
+      <img id="shape10" class="dragme" src="shape10.png">
+      <img id="shape11" class="dragme" src="shape11.png">
+    <img id="shape12" class="dragme" src="shape12.png">
+     <img id="shape13" class="dragme" src="shape13.png">
+     <img id="shape14" class="dragme" src="shape14.png">
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let shape07=document.getElementById("shape07");
+     let shape08=document.getElementById("shape08");
+     let shape10=document.getElementById("shape10");
+     let shape11=document.getElementById("shape11");
+     let shape12=document.getElementById("shape12");
+     let shape13=document.getElementById("shape13");
+     let shape14=document.getElementById("shape14");
+
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        shape07.style.bottom= value * 0.4 + 'px';
+       shape08.style.bottom= value * 0.2 + 'px';
+       shape10.style.bottom= value * 0.35 + 'px';
+       shape11.style.bottom= value * 0.5 + 'px';
+       shape12.style.bottom= value * 0.6 + 'px';
+       shape13.style.bottom= value * 0.3 + 'px';
+       shape14.style.bottom= value * 0.5 + 'px';
+})
+</script>
+     <div class="text03">Polar can be sweet and flowery but also harsh and unembellished. Polar is no longer what it was yesterday...</div>
+    </section>
+  <section class="blackbg">
+    </section>
+      <section class="blackbg">
+<div class="images_section11">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="checkerboard" class="dragme" src="checkerboard.png">
+      <img id="eye" class="dragme" src="eye.png">
+      <img id="key" class="dragme" src="key.png">
+      <img id="squiggle" class="dragme" src="squiggle.png">
+    <img id="star" class="dragme" src="star.png">
+    <img id="checkerboard_small" class="dragme" src="checkerboard_small.png">
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let checkerboard=document.getElementById("checkerboard");
+     let eye=document.getElementById("eye");
+     let key=document.getElementById("key");
+     let squiggle=document.getElementById("squiggle");
+     let star=document.getElementById("star");
+     let checkerboard_small=document.getElementById("checkerboard_small");
+
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        checkerboard.style.bottom= value * 0.2 + 'px';
+       eye.style.bottom= value * 0.11 + 'px';
+       key.style.bottom= value * 0.3 + 'px';
+       squiggle.style.bottom= value * 0.4 + 'px';
+       star.style.bottom= value * 0.3 + 'px';
+       checkerboard_small.style.bottom= value * 0.8 + 'px';
+})
+</script>
+    </section>
+      <section class="blackbg">
+<!--         12 -->
+    </section>
+   
+      <section class="blackbg">
+<!--         25 -->
+    </section>
+      <section  class="blackbg">
+<div class="images_section11">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="line01" class="dragme" src="line01.png">
+      <img id="line02" class="dragme" src="line02.png">
+      <img id="line03" class="dragme" src="line03.png">
+      <img id="line04" class="dragme" src="line04.png">
+    <img id="line05" class="dragme" src="line05.png">
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let line01=document.getElementById("line01");
+     let line02=document.getElementById("line02");
+     let line03=document.getElementById("line03");
+     let line04=document.getElementById("line04");
+     let line05=document.getElementById("line05");
+
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        line01.style.bottom= value * 0.2 + 'px';
+       line02.style.bottom= value * 0.1 + 'px';
+       line03.style.bottom= value * 0.3 + 'px';
+       line04.style.bottom= value * 0.4 + 'px';
+       line05.style.bottom= value * 0.3 + 'px';
+    
+})
+</script>
+    </section>
+      <section  class="blackbg">
+<!--         27 -->
+    </section>
+      <section  class="blackbg">
+
+    </section>
+      <section  class="blackbg">
+
+    </section>
+      <section  class="blackbg">
+
+    </section>
+      <section  class="blackbg">
+<!--         36 -->
+    </section>
+      <section  class="blackbg">
+<!--         37 -->
+    </section>
+      <section class="blackbg">
+
+    </section>
+
+    <section class="blackbg">
+<!--         47 -->
+    </section >
+   <section class="blackbg" class="cluster">
+<!--         48 -->
+    </section>
+    <section class="blackbg" class="cluster">
+<div class="images_section08">
+    <div class="images_section11">
+
+     <!--  <img id="gold" class="dragme" src="gold.png"> -->
+      <img id="line06" class="dragme" src="line06.png">
+      <img id="line07" class="dragme" src="line07.png">
+      <img id="line08" class="dragme" src="line08.png">
+      <img id="line09" class="dragme" src="line09.png">
+    <img id="line10" class="dragme" src="line10.png">
+    </div>
+
+    </div>
+    <script type=
+    "text/javascript">
+
+      let line06=document.getElementById("line06");
+     let line07=document.getElementById("line07");
+     let line08=document.getElementById("line08");
+     let line09=document.getElementById("line09");
+     let line10=document.getElementById("line10");
+
+
+     window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+
+        line06.style.bottom= value * 0.4 + 'px';
+       line07.style.bottom= value * 0.1 + 'px';
+       line08.style.bottom= value * 0.2 + 'px';
+       line09.style.bottom= value * 0.4 + 'px';
+       line10.style.bottom= value * 0.5 + 'px';
+    
+})
+</script>
+<!-- <img class="bg" src="pixel_bg.png"> -->
+    </section>
+    <section class="blackbg">
+      <div class="cluster"></div>
+    </section>
+<!--     <section class="blackbg">
+      <div class="slidecontainer">
+  <input type="range" min="100" max="900" value="500" class="slider" id="myRange">
+</div>
+    </section> -->
+
+  </body>
+</html>
