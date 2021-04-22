@@ -245,7 +245,7 @@ if ( ratio > 0.27){
 			$('.text').removeClass('dark');
 			$('.text').removeClass('hi');
 }
-			if ( ratio > 0.4){
+			if ( ratio > 0.44){
 			$('.text').addClass('dark');
 			$('.text').text('');
 		}else{
@@ -253,7 +253,7 @@ if ( ratio > 0.27){
 			$('.text').removeClass('hi');
 }
 
-			if ( ratio > 0.46){
+			if ( ratio > 0.49){
 			$('.text').addClass('pixel');
 			$('.text').text('BUT IT IS NO USE NOW TO PRETEND TO BE TWO PEOPLE');
 		}else{
