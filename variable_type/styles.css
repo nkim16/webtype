@@ -3,6 +3,7 @@
   src: url(fonts/growGX.ttf);
 }
 
+
 :root {
   --font-size: 280px;
   --font-weight: 100;
@@ -260,6 +261,29 @@ font-weight: 400;
 
 font-style: normal;
 }
+
+.text04{
+  text-align: center;
+  font-size: 7.7em;
+/*  margin: 70px;*/
+  line-height: 1em;
+  color: white;
+  font-weight: 900;
+  font-variation-settings: 'wght' 100, 'wdth' 85;
+  animation: grow 4000ms infinite forwards;
+  text-transform: uppercase;
+  position: relative;
+}
+@keyframes breathe {
+  60% {
+    font-variation-settings: 'wght' 900;
+  }
+  
+  100% {
+    font-variation-settings: 'wght' 100;
+  }
+}
+
 
 .text02{
 
