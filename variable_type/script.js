@@ -17,7 +17,7 @@ $(document).ready(function(){
 			$('.text').text('WHO IN THE WORLD AM I? THAT IS THE GREAT PUZZLE...');
 		}else{
 			$('.text').removeClass('light');
-			$('.text').removeClass('TWO FACED TYPE');
+			$('.text').removeClass('WHO IN THE WORLD AM I? THAT IS THE GREAT PUZZLE...');
 		}
 
 		if ( ratio > 0.145){
