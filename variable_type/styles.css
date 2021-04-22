@@ -59,7 +59,7 @@ background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 1
     color:black;
     margin: auto;
     z-index: 2;
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
      word-wrap: break-word;
 /*    transform: scale(0.9);*/
@@ -81,7 +81,7 @@ background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 1
 }
 .dark{
   color: black;
-      -webkit-text-stroke-width: 0.8px;
+      -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 }
 /*.fox {
@@ -91,7 +91,7 @@ background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 1
 }*/
 .light{
   color: white;
-        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
      width:90vw;
     height: 100vh;
@@ -99,13 +99,13 @@ background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 1
 
 .dark{
   color: black;
-      -webkit-text-stroke-width: 0.8px;
+      -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 }
 
 .light{
   color: white;
-        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
      width:90vw;
     height: 100vh;
@@ -113,7 +113,7 @@ background: linear-gradient(180deg, rgba(63,168,251,1) 0%, rgba(240,231,230,1) 1
 
 .pixel{
   color: black;
-        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
      width:90vw;
     height: 100vh;
