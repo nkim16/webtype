@@ -260,14 +260,14 @@ if ( ratio > 0.27){
 
 			$('.text').removeClass('hi');
 }
-			if ( ratio > 0.53){
+			if ( ratio > 0.58){
 			$('.text').addClass('pixel');
 			$('.text').text('WHY THERE IS HARDLY ENOUGH OF ME');
 		}else{
 
 			$('.text').removeClass('hi');
 }
-			if ( ratio > 0.6){
+			if ( ratio > 0.65){
 			$('.text').addClass('pixel');
 			$('.text').text('TO MAKE ONE RESPECTABLE PERSON');
 		}else{

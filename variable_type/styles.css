@@ -374,14 +374,27 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 100%);
 }
 
 #line02{
-  left:80%;
+  left:10%;
+  width: 30%;
 }
 
 #line12{
-  left:60%;
+  left:10%;
 }
 
 .bg{
 width: 100%;
+}
+
+#line15{
+  left:30%;
+}
+
+#line11{
+  left:50%;
+}
+
+#line13{
+  left:60%;
 }
 
