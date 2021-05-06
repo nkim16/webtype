@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Search History</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rko6bul.css">
+    <script src="script.js" defer></script>
+  </head>  
+
+  <body> 
+  <div class="about">
+    <button value="info" id="info" type="button">
+      <h1 class="info-txt">?</h1>
+    </button>
+     <button value="info" id="info" type="button">
+      <h1 class="self">You are</h1>
+    </button>
+  </div>
+
+  <div class="field"> 
+   <label for="options"><h1 class="main-sent">I want to <b><i>seem...</i></b></h1></label>
+    <button value="whole" id="whole" type="button" onclick="myFunction()">
+      <h1 class="whole-txt">Wholesome</h1>
+    </button>
+
+    <button value="dest" id="dest" type="button" onclick="myFunction()">
+      <h1 class="dest-txt">Destructive</h1>
+    </button>
+    <button value="stu" id="stu">
+      <h1 class="stu-txt">Stupid</h1>
+    </button>
+    <button value="cur" id="cur">
+      <h1 class="cur-txt">Curious</h1>
+    </button>
+    <button value="bor" id="bor">
+      <h1 class="bor-txt">Boring</h1>
+    </button>
+    <button value="sm" id="sm">
+      <h1 class="sm-txt">Smart</h1>
+    </button>
+</div>
+
+<div class=txt>
+
+</div>
+<section class="option-detail" id="result-section">
+    <div class="list">
+      <h1 class="txt-box" id="result"></h1>
+    </div>
+      <div>
+        <p id="tagline-whole" class="tagline"></p>
+        <script>
+function myFunction() { 
+  document.getElementById("tagline-whole").innerHTML = "You seem like a good person!";
+}
+        </script>
+      </div>
+
+</div>
+
+<!-- <div>
+        <p id="tagline-dest" class="tagline"></p>
+        <script>
+function myFunction() { 
+  document.getElementById("tagline-dest").innerHTML = "They're keeping an eye you";
+}
+        </script>
+      </div> -->
+ </section>
+
+</body>
+</html>

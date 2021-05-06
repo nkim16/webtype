@@ -1,0 +1,174 @@
+body {
+  margin: 7%;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 4em;
+  color: blue;
+  background: yellow;
+  text-align: center;
+}
+
+
+h1 {
+  color: #373fff;
+  font-family: omnes-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+}
+
+button{
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 60px;
+  padding: 15px 60px;
+  text-align: center;
+  outline: none;
+}
+
+p{
+	font-size: 0.4em;
+}
+
+#whole{
+  border: 2px solid red;
+}
+
+#whole:hover{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #f5000c, white, #f5000c);
+
+}
+.whole-txt{
+  color:red;
+}
+.whole-txt:hover{
+    font-family: omnes-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+  }
+
+#dest{
+  border: 2px solid #ffc400;
+}
+#dest:hover{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, yellow, white, yellow);
+  color: white; 
+
+}
+.dest-txt{
+  color:#ffc400;
+}
+
+#stu{
+  border: 2px solid #009c10;
+}
+#stu:hover{
+  background-color: yellow; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, green, white, green);
+  color: white; 
+}
+.stu-txt{
+  color: #009c10;
+}
+
+#cur:hover{
+  background-color: yellow; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, white, blue);
+  color: white; 
+}
+
+#bor{
+  border: 2px solid #ffa3a3;
+}
+#bor:hover{
+  background-color: yellow; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #ffa3a3, white, #ffa3a3);
+  color: white; 
+}
+.bor-txt{
+  color:#ffa3a3;
+}
+
+#sm{
+  border: 2px solid #ff9100;
+}
+#sm:hover{
+  background-color: yellow; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, orange, white, orange);
+  color: white; 
+}
+
+.sm-txt{
+  color: #ff9100;
+}
+
+.list{
+  color: white;
+  font-size: 1em;
+}
+
+#tagline-whole{
+  position: relative;
+/*  top:80%;
+  left: 40%;*/
+  margin: 0;
+  align-content: center;
+  text-align: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-size: 0.5em;
+}
+
+a:visited{
+  color:black;
+  background-color: yellow;
+}
+
+a:hover{
+  font-family: omnes-pro, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+}
+
+.about{
+  position: absolute;
+  left: 5%;
+  top:5%;
+}
+
+#info{
+  border-radius: 50%;
+  padding: 0px 10px;
+}
+
+
+.main-sent{
+font-family: p22-underground, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+color: black;
+}
+
+.txt-box{
+  position: relative;
+  border: 2px solid black;
+  width: 80vw;
+  height: 17vh;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+/*  margin: auto;*/
+}
