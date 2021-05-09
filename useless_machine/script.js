@@ -2,6 +2,7 @@ $(document).ready(function(){
 	console.log('script loaded');
 
 	let personality = "";
+	let submitButtonId = "submit";
 
 	let counters = {
 		"whole" : 0,
@@ -19,7 +20,7 @@ $(document).ready(function(){
 
 		$('#result-final').text(personality);
 	});
-	
+
 
 	$('button').click(function(){
 		let id = $(this).attr('id');
@@ -28,8 +29,15 @@ $(document).ready(function(){
 
 		console.log(counters);
 
+		//calling the new funciton
+		if(id == submitButtonId){
+			getResult();
+		} 
+
 		// whole_counter++; 
 		rayResult( id );
+		updatetagline( id );
+		
 	});
 
 
@@ -176,6 +184,29 @@ $(document).ready(function(){
 	  	$("#result").html('<a target="_blank" href="https://www.google.com/search?q=' + word +'">' + word + '</a>');
 	  
 
+	}
+
+	function updatetagline( buttonID ){
+		//get proper tagline for button
+		console.log("update tagline is getting called");
+		let taglinelist = {
+			'whole': "You seem like a good person!",
+			'dest': "They're keeping an eye on you",
+		};
+		var tagLineWeWantToSet = ""
+		tagLineWeWantToSet = taglinelist[buttonID];
+		console.log(tagLineWeWantToSet);
+		//set tagline on HTML object
+		$("#tagline-whole").text(tagLineWeWantToSet)
+	}
+
+	function getResult(){
+		console.log("getresult is called");
+
+		//find the most clicked on
+		//we want to get a result (most clicked on)
+		//we want to create an explanation for the result
+		//open a new page with the result + explanation
 	}
 
 	// rayResult ();
