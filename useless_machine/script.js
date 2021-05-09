@@ -204,9 +204,30 @@ $(document).ready(function(){
 		console.log("getresult is called");
 
 		//find the most clicked on
-		//we want to get a result (most clicked on)
+		var max = 0
+		var maxKey = ""
+		for (var key in counters) {
+			if(counters[key]>max){
+				max = counters[key]
+				maxKey = key
+			}
+			console.log(counters[key])
+		}
+
+
 		//we want to create an explanation for the result
-		//open a new page with the result + explanation
+		let explanations = {
+			'whole': "Wholesome explanation",
+			'dest': "Destructive explan",
+		}
+		let names = {
+			'whole': "Wholesome"
+					}
+		let moreExplanation = explanations[maxKey]
+		let explanation = "You are " + names[maxKey] + " because you clicked it " + max + " times.  " + moreExplanation
+		
+		//add an HTML element that contains the result + explanation to the page
+		$("#quiz-result").html('<p class="quiz">' + explanation + ' </p>')
 	}
 
 	// rayResult ();

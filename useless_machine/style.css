@@ -172,3 +172,8 @@ color: black;
   background-color: white;
 /*  margin: auto;*/
 }
+
+.quiz{
+  color: red;
+  font-size: 3em;
+}
