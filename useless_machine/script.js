@@ -83,7 +83,7 @@ $(document).ready(function(){
 			"Sell organs for money",
 			"Evade taxes without getting caught",
 			"How to ATM fraud",
-			"How to email fraud",
+			"How to hack the government",
 			"Shoplifting methods",
 			"How many cherry pits can kill a human?",
 			"Where to buy tear gas",
@@ -191,7 +191,12 @@ $(document).ready(function(){
 		console.log("update tagline is getting called");
 		let taglinelist = {
 			'whole': "You seem like a good person!",
-			'dest': "They're keeping an eye on you",
+			'dest': "We're keeping an eye on you",
+			'stu':"Don't worry we're not too concerned about you",
+			'cur': "Haha we're entertained too!",
+			'bor': "Damn, wish we got a different person",
+			'sm': "We won't even try to understand you",
+
 		};
 		var tagLineWeWantToSet = ""
 		tagLineWeWantToSet = taglinelist[buttonID];
@@ -219,9 +224,12 @@ $(document).ready(function(){
 		let explanations = {
 			'whole': "Wholesome explanation",
 			'dest': "Destructive explan",
+			'stu':"Don't worry we're not too concerned about you",
+			'cur': "your curious nature can be dangerous for you."
 		}
 		let names = {
-			'whole': "Wholesome"
+			'whole': "Wholesome",
+			'dest':"destructive",
 					}
 		let moreExplanation = explanations[maxKey]
 		let explanation = "You are " + names[maxKey] + " because you clicked it " + max + " times.  " + moreExplanation
