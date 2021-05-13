@@ -90,7 +90,7 @@ $(document).ready(function(){
 			"How pickpockets steal wallets",
 		],
 		'stu_list': [
-			"can you kill ants", 
+			"Is it illegal to kill bugs", 
 			"Baby Animals", 
 			"Motivational speeches", 
 			"Babies smiling", 
@@ -191,11 +191,11 @@ $(document).ready(function(){
 		console.log("update tagline is getting called");
 		let taglinelist = {
 			'whole': "You seem like a good person!",
-			'dest': "We're keeping an eye on you",
-			'stu':"Don't worry we're not too concerned about you",
-			'cur': "Haha we're entertained too!",
-			'bor': "Damn, wish we got a different person",
-			'sm': "We won't even try to understand you",
+			'dest': "We're keeping an eye on you!",
+			'stu':"Don't worry, we're not too concerned about you...",
+			'cur': "Haha, we're entertained too!",
+			'bor': "Damn, wish we got a different person.",
+			'sm': "You are an amazing human being!",
 
 		};
 		var tagLineWeWantToSet = ""
@@ -222,20 +222,26 @@ $(document).ready(function(){
 
 		//we want to create an explanation for the result
 		let explanations = {
-			'whole': "Wholesome explanation",
-			'dest': "Destructive explan",
-			'stu':"Don't worry we're not too concerned about you",
-			'cur': "your curious nature can be dangerous for you."
+			'whole': ". Your interest in Wholesome content means that you are sound in body, mind, and morals. You are the wholesome one of the group: you're comforting, empathetic, and reliable. Google is not too concerned about you because you are only interested in the good of the internet! We'll rely on you to boost internet morale when another Google controversy occurs! ",
+			'dest': ". Your destructive searches may bite you in the butt in the future! You're usually the reckless one of the group everyone tries to stay away from because your double-sided nature can become unpredictable. Don't try to delete you search history (it's useless) and just know that we are not afraid to expose you to the government-- we have CIA and NSA ties! ",
+			'stu':". You are usually the one who is the most gullible and easily sold to in the group! Your stupid searches show us that we can sell your information without being accused of privacy infringement because you will be totally unaware of it. You also probably won't be too concerned about us profiling you without consent. It's a win-win situation!",
+			'cur': ". Your curious nature is great data for us to use and sell in the future. You're the unpredictable one of the group whose curiousity can often lead to dangerous but exciting paths. We struggle with creating user profiles for people like you because of the lack of consistency in searches. Nonetheless, you add exciting data for us!",
+			'bor': ". Your interest boring searches bores us too. But you are essential for our data collection because you represent a big chunk of the group. As a result, you are the one in the group who keeps everyone grounded. Your monotonous lifestyle may not be the most exciting but you have the most consistency when it comes to tracking IP addresses.",
+			'sm':". Your smart searches shows us that you probably know what we are doing with your data. You're not like the rest-- you probably know that Incognito Mode doesn't work and you probably have third party apps to protect your privacy. We see you as the amazingly smart, multi-talented, accomplished, brilliant, polished, practiced, saavy, cool, hip, and beautiful one of the group. Please don't expose us.",
 		}
 		let names = {
-			'whole': "Wholesome",
-			'dest':"destructive",
+			'whole': "WHOLESOME",
+			'dest':"DESTRUCTIVE",
+			'stu':"STUPID",
+			'cur':"CURIOUS",
+			'bor':"BORING",
+			'sm':"SMART",
 					}
 		let moreExplanation = explanations[maxKey]
-		let explanation = "You are " + names[maxKey] + " because you clicked it " + max + " times.  " + moreExplanation
+		let explanation = "Google thinks you are a  " + names[maxKey] + " searcher" + moreExplanation 
 		
 		//add an HTML element that contains the result + explanation to the page
-		$("#quiz-result").html('<p class="quiz">' + explanation + ' </p>')
+		$("#quiz-result").html('<div class="result-box"><p class="quiz">' + explanation + ' </p></div>')
 	}
 
 	// rayResult ();
@@ -244,5 +250,6 @@ var button = document.querySelector('button');
 button.addEventListener('click', function(){
 tag.classList.toggle('demo');
 });
+
 
 });

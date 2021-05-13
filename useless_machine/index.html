@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search History</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/rko6bul.css">
+
     <script src="script.js" defer></script>
   </head>  
 
   <body> 
   <div class="about">
-    <button value="info" id="info" type="button">
-      <h1 class="info-txt">?</h1>
-    </button>
-     <button value="info" id="submit" class="info" type="button">
-      <h1 class="self">You are</h1>
+    <button id="about_button" class="about_button" onclick="unhide()" class="about-txt">
+      <h1 class="about-txt">About</h1>
     </button>
   </div>
 
@@ -25,24 +25,24 @@
 
   <div class="field"> 
    <label for="options"><h1 class="main-sent">I want to <b><i>seem...</i></b></h1></label>
-    <button value="whole" id="whole" type="button" onclick="myFunction()">
-      <h1 class="whole-txt">Wholesome</h1>
+    <button value="whole" id="whole" type="button" class="whole-txt">
+      Wholesome
     </button>
 
-    <button value="dest" id="dest" type="button" onclick="myFunction()">
-      <h1 class="dest-txt">Destructive</h1>
+    <button value="dest" id="dest" type="button" class="dest-txt">
+      Destructive
     </button>
-    <button value="stu" id="stu">
-      <h1 class="stu-txt">Stupid</h1>
+    <button value="stu" id="stu" class="stu-txt">
+      Stupid
     </button>
-    <button value="cur" id="cur">
-      <h1 class="cur-txt">Curious</h1>
+    <button value="cur" id="cur" class="cur-txt">
+      Curious
     </button>
-    <button value="bor" id="bor">
-      <h1 class="bor-txt">Boring</h1>
+    <button value="bor" id="bor" class="bor-txt">
+      Boring
     </button>
-    <button value="sm" id="sm">
-      <h1 class="sm-txt">Smart</h1>
+    <button value="sm" id="sm" class="sm-txt">
+      Smart
     </button>
 </div>
 
@@ -51,12 +51,17 @@
 </div>
 <section class="option-detail" id="result-section">
     <div class="list">
-      <h1 class="txt-box" id="result"></h1>
+      <h1 class="txt-box" id="result"><img class="search_icon"src="search_icon.png"></h1>
     </div>
       <div>
         <p id="tagline-whole" class="tagline"></p>
       </div>
  </section>
+
+ <div id="submit" class="info" >
+        <button value="info" id="submit" class="info" type="button">
+      <h1 class="profile">Profile</h1>
+ </div>
 
 </body>
 </html>

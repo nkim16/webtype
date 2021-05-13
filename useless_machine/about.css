@@ -281,6 +281,8 @@ filter: drop-shadow(7px 7px 4px gray);
     border: none;
   background-color: transparent;
    padding: 15px 20px;
+   left: 1%;
+   top: 1%;
 }
 
 .about-box{
