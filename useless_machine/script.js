@@ -275,7 +275,7 @@ $(document).ready(function(){
 
 
 		let moreExplanation = explanations[maxKey]
-		let explanation = "Google thinks you are a  " + names[maxKey] + " searcher. " + moreExplanation 
+		let explanation = "Google would profile you as a   " + names[maxKey] + " searcher. " + moreExplanation 
 		
 		//add an HTML element that contains the result + explanation to the page
 		$("#quiz-result").html('<div class="result-box"><p class="quiz">' + explanation + ' </p></div>')
