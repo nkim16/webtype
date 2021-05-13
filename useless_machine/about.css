@@ -218,7 +218,7 @@ color: black;
         }
 .quiz{
   color: black;
-  font-size: 2vw;
+  font-size: 1.8vw;
   overflow-y: scroll;
   text-align: center;
   background: -webkit-linear-gradient( 146deg, #fb3f3f, #fb3f3f, #ffa600, #09d21d, #0086ff, #ff00f9, #ff00f9);
