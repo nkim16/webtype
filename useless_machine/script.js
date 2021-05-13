@@ -90,14 +90,28 @@ $(document).ready(function(){
 			"How pickpockets steal wallets",
 		],
 		'stu_list': [
-			"Is it illegal to kill bugs", 
-			"Baby Animals", 
-			"Motivational speeches", 
-			"Babies smiling", 
-			"Sunshine", 
-			"Delicious food recipies", 
-			"Bob Ross painting videos", 
-			"Cute cats"],
+			"Is it ilegal to kill bugs", 
+			"Why do I get left and right confused?", 
+			"Why do I keep on droping my phone in the toilet?", 
+			"Who should I vote for reddit", 
+			"Who is the prezident right now", 
+			"are netflix a country", 
+			"fige", 
+			"how can you tell if you are stopid",
+			"how to use google",
+			"y is privacy important", 
+			"make a million dollars in 1 day",
+			"i saw santa claus",
+			"will tooth fairy not give me money",
+			"If i eat myself will I get twice as big or disappear completely?",
+			"I swallowed an ice cube whole, and I haven’t pooped it out?",
+			"What is obama last name",
+			"are tattoos ginetic",
+			"how do i know how old am i",
+			"is chicken a fruit or vegetable",
+			"i got lost looking for my lost dog",
+			"how to grow 5in in a week",
+			"y is there 60 hours in aday",],
 
 		'cur_list': [
 			"world's tallest dog", 
@@ -133,7 +147,27 @@ $(document).ready(function(){
 			"How to make cabbage soup", 
 			"Weather next month", 
 			"Best coupons",
-			""],
+			"Duct tape",
+			"dad jokes",
+			"watch news",
+			"what is my ip",
+			"how to tie a tie",
+			"how many ounces in a cup",
+			"how to screenshot on mac",
+			"how many grams in an ounce",
+			"is it going to rain today",
+			"how many grams in a pound",
+			"how many ounces in a quart",
+			"how many tablespoons in a cup",
+			"what is the temperature today",
+			"how many calories in a banana",
+			"how many cups in a pint",
+			"how to change gmail password",
+			"how many steps in a mile",
+			"how to backup iphone",
+			"how many oz in a pound",
+			"what is on tv today",
+			"cut down tree",],
 		'sm_list': [
 			"The Collatz Conjecture", 
 			"Goldbach's Conjecture﻿ Creative Commons", 
@@ -144,14 +178,13 @@ $(document).ready(function(){
 			"Does the pair exhibit similar principle as the position-momentum?", 
 			"The Twin Prime Conjecture",
 			"Copenhagen Interpretation of Quantum Mechanics",
-			"Which schools can i get into with 4.0 gpa",
 			"The Coriolis effect",
 			"Construction of phylogenetic trees",
 			"Fourier transform",
 			"Harmonic analyzer",
 			"Paleomagnetism",
 			"Biological Anthropology",
-			"SCHRODINGER'S RABID CHICKEN",
+			"Schrodinger's rabid chicken",
 			"The Single Theory of Gravity",
 			"Higgs Boson",],
 	}
@@ -222,12 +255,13 @@ $(document).ready(function(){
 
 		//we want to create an explanation for the result
 		let explanations = {
-			'whole': ". Your interest in Wholesome content means that you are sound in body, mind, and morals. You are the wholesome one of the group: you're comforting, empathetic, and reliable. Google is not too concerned about you because you are only interested in the good of the internet! We'll rely on you to boost internet morale when another Google controversy occurs! ",
-			'dest': ". Your destructive searches may bite you in the butt in the future! You're usually the reckless one of the group everyone tries to stay away from because your double-sided nature can become unpredictable. Don't try to delete you search history (it's useless) and just know that we are not afraid to expose you to the government-- we have CIA and NSA ties! ",
-			'stu':". You are usually the one who is the most gullible and easily sold to in the group! Your stupid searches show us that we can sell your information without being accused of privacy infringement because you will be totally unaware of it. You also probably won't be too concerned about us profiling you without consent. It's a win-win situation!",
-			'cur': ". Your curious nature is great data for us to use and sell in the future. You're the unpredictable one of the group whose curiousity can often lead to dangerous but exciting paths. We struggle with creating user profiles for people like you because of the lack of consistency in searches. Nonetheless, you add exciting data for us!",
-			'bor': ". Your interest boring searches bores us too. But you are essential for our data collection because you represent a big chunk of the group. As a result, you are the one in the group who keeps everyone grounded. Your monotonous lifestyle may not be the most exciting but you have the most consistency when it comes to tracking IP addresses.",
-			'sm':". Your smart searches shows us that you probably know what we are doing with your data. You're not like the rest-- you probably know that Incognito Mode doesn't work and you probably have third party apps to protect your privacy. We see you as the amazingly smart, multi-talented, accomplished, brilliant, polished, practiced, saavy, cool, hip, and beautiful one of the group. Please don't expose us.",
+			'whole': "<br>Your interest in wholesome content means that you're sound in body, mind, and morals. You're usually the positive one in the group: you're comforting, empathetic, and reliable. Google isn't too concerned about you because you're only interested in the good of the internet! They'll rely on you to boost internet morale with memes when another Google controversy occurs! ",
+			'dest': "<br>Be careful! Your destructive behavior may bite you in the butt in the future! You're usually the dangerous and reckless one in the group that everyone tries to stay away from. Don't try to delete you search history <i>(it's useless)</i> and just know that Google isn't afraid to expose you to the government-- they have CIA and NSA ties! ",
+			'stu':"<br>You're usually the one who is the most gullible, innocent, and unsuspecting in the group! Your stupid searches indicate to Google that they can sell your information without being sued for privacy infringement because you'll be <i>totally</i> unaware of it. You also probably won't be too concerned about Google profiling you without consent. It's a win-win situation!",
+			'cur': "<br>Your curious nature is great data for Google to use and sell in the future. You're the unpredictable one of the group whose curiousity can often lead to dangerous but exciting paths. Google struggles with creating user profiles for people like you because of the lack of consistency in searches. Nonetheless, you add exciting data for them!",
+			'bor': "<br>Your interest in boring searches indicates a mundane and uninteresting lifestyle. But you're essential for Google's data collection because you represent a big chunk of the group. As a result, you are the one in the group who keeps everyone grounded. Your monotonous lifestyle may not be the most exciting but you have the most consistency when it comes to tracking IP addresses. <i>Basically, you're predictable.</i>",
+			'sm':"<br>Your smart searches show us that you probably know what Google is doing with your data. You're not like the rest—you probably know that Incognito Mode doesn't work and you probably have third party apps to protect your privacy. Google sees you as the amazingly smart, multi-talented, accomplished, brilliant, polished, practiced, saavy, cool, and beautiful one of the group because Google is afraid of people like you.",
+			'un':"Please click buttons to see what kind of searcher you are!",
 		}
 		let names = {
 			'whole': "WHOLESOME",
@@ -236,13 +270,23 @@ $(document).ready(function(){
 			'cur':"CURIOUS",
 			'bor':"BORING",
 			'sm':"SMART",
+			'un':"UNDEFINED",
 					}
+
+
 		let moreExplanation = explanations[maxKey]
-		let explanation = "Google thinks you are a  " + names[maxKey] + " searcher" + moreExplanation 
+		let explanation = "Google thinks you are a  " + names[maxKey] + " searcher. " + moreExplanation 
 		
 		//add an HTML element that contains the result + explanation to the page
 		$("#quiz-result").html('<div class="result-box"><p class="quiz">' + explanation + ' </p></div>')
 	}
+	
+
+ function displayabout(){
+ 	document.getElementById("about_section");
+}
+
+
 
 	// rayResult ();
 var tag = document.getElementById("whole");
