@@ -407,7 +407,8 @@ h6{
   font-size: 180%;
   border-radius: 150px;
   filter: drop-shadow(0px 0px 10px black);
-/*  overflow: scroll;*/
+  overflow: scroll;
+
 
 }
 
@@ -432,7 +433,7 @@ h6{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;
+  font-size: 13vw;
 }
 
 .sf-container{
@@ -493,7 +494,7 @@ div{
   background-color: white;
   border: 1px solid black;
   top: 36%;
-/*   overflow: scroll;*/
+   overflow: scroll;
   filter: drop-shadow(0px 0px 10px black);
 }
 
@@ -568,7 +569,7 @@ div{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;
+  font-size: 13vw;
 }
 
 .la-container{
@@ -608,7 +609,7 @@ div.la-container{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;
+  font-size: 13vw;
 }
 
 .ch-container{
@@ -649,7 +650,7 @@ div.ch-container{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;
+  font-size: 13vw;
 }
 
 .bstn-container{
@@ -688,7 +689,7 @@ div.bstn-container{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;  
+  font-size: 13vw;
 }
 
 .pvd-container{
@@ -728,7 +729,7 @@ div.pvd-container{
   left:7%;
   position: absolute;
   z-index: 1;
-  font-size: 1250%;  
+  font-size: 13vw;
 }
 
 .nyc-container{
