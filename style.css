@@ -108,6 +108,7 @@ p{
 	50% {
 		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
 		transform: translatey(-20px);
+		background-color: none;
 	}
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
